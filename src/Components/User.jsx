@@ -23,7 +23,7 @@ const UserPage = ({ users }) => {
             ))
           ) : (
             <tr>
-              <td colSpan="3" className="p-2">No users found</td>
+              <td colSpan="3" className="text-red-500">No users found</td>
             </tr>
           )}
         </tbody>
